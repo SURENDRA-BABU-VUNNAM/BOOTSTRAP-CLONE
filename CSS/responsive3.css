@@ -1,0 +1,83 @@
+
+nav{
+    
+    /* width: 27.1rem; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.navbar_container-1 ul{
+    display: flex;
+    /* flex-wrap:wrap; */
+}
+
+.navbar_container-1 li {
+    padding: 0.1rem;
+    margin: 0.1rem;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.navbar_container-2{
+    display: none;
+}
+
+
+.bootstrap-descripiton-and-image{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.bootstrap-image>img {
+    height: 15rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
+    /* padding-left: 1rem; */
+}
+
+.button{
+    padding-left: 2.5rem;
+}
+
+.installation {
+    display: flex;
+    flex-direction: column-reverse;
+    /* width: 100%; */
+    justify-content: center;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+}
+
+.install-bootstrap {
+    display: none;
+}
+
+.image5>img {
+    height: 14rem;
+    margin: 0rem 2rem;
+}
+.image7>img {
+    height: 14rem;
+    margin: 3rem 4rem;
+}
+
+footer{
+    flex-direction: column;
+    /* width: 27.1rem; */
+    /* flex-wrap: wrap; */
+}
+
+.footer-list{
+    padding-left: 8.9rem;
+}
+
+.footer-flex{
+    flex-direction: column;
+}
+
+

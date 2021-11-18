@@ -1,0 +1,226 @@
+body{
+    box-sizing: border-box;
+}
+
+
+/* nav bar  */
+
+
+.navbar_container-1 ul{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 15rem;
+}
+
+
+.navbar_container-2{
+    display: none;
+}
+.navbar_container-2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20rem;
+}
+
+
+/* part-2 Bootstrap description buttons and version and image  */
+
+.bootstrap-descripiton{
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+.bootstrap-descripiton-and-image{
+    display: flex;
+}
+
+.bootstrap-descripiton h1{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.bootstrap-descripiton p{
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom:2.3rem ;
+}
+
+.bootstrap-image img{
+    height: 14rem;
+    /* margin: 3rem 3rem 0rem 0rem; */
+}
+
+.getstarted{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    border-style: none;
+    background-color: #61428f;
+    color: white;
+    margin-left: 0.3rem;
+}
+.getstarted:hover{
+    background-color: #331a5a;
+    color: white;
+}
+
+.download{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    border: .1rem solid #6c757d;
+    color:#6c757d;
+    background-color: #fff;
+    
+}
+.download:hover{
+    border: .1rem solid #6c757d;
+    color:#fff;
+    background-color:#6c757d;
+}
+
+.current-version{
+    display: inline-block;
+    margin-right: .5rem;
+    color:#6c757d;
+}
+
+.version{
+    margin-top: 1rem;
+}
+.version a{
+    color: #6c757d;
+    margin: .2rem .2rem .2rem .2rem;
+}
+
+
+/* part-3 installation  */
+
+
+.installation{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+}
+.installation-description{
+    margin: 4rem 0rem 0rem 5rem;
+}
+.installation-description img{
+    height: 4rem;
+}
+
+.installation-description h2{
+    font-size: 2rem;
+}
+
+.installation-description .top-para {
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    line-height: 2rem;
+    font-weight: 400!important;
+}
+
+.installation-description p{
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.repo {
+    text-decoration: none;
+    color: #0d6efd;
+    
+}
+.installation-docs button{
+    height: 3rem;
+    width: 12rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+    color: #0d6efd;
+    border:.1rem solid #0d6efd;
+    border-radius: .23rem;
+}
+
+.installation-docs button:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+.install-bootstrap{
+    margin: 9rem 1rem 1rem 8rem;
+}
+.npm-bootstrap{
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* overflow: auto; */
+    border-radius: .3rem;
+    height: 4rem;
+    width: 16rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
+}
+
+.npm-bootstrap p{
+    margin-left: 1rem;
+    font-family: monospace;
+    font-size: 0.75rem;
+}
+
+button.copy{
+    position: relative;
+    bottom: 1rem;
+    left: 3rem;
+    padding: 0.1rem;
+    color:#0d6efd;
+    border:.1rem solid #0d6efd;
+    border-radius: .15rem;
+}
+button.copy:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+button.copy-1{
+    position: relative;
+    bottom: 1rem;
+    left: -.4rem;
+    padding: 0.1rem;
+    color:#0d6efd;
+    border:.1rem solid #0d6efd;
+    border-radius: .15rem;
+}
+button.copy-1:hover{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+/* .image7{
+    padding: 1rem 1rem 1rem 1rem;
+} */
+
+/* official themes */
+
+.official-themes-description{
+    margin: 3rem 0rem 0rem 2.29rem;
+}
+
+/* icons */
+
+
+
+footer .row-1{
+    margin: 2rem;
+}
+
+.footer-list {
+    margin: 0.5rem;
+    width: 5rem;
+}
+
+.boot-foot {
+    position: relative;
+    bottom: 0rem;
+}
+
+/*  */

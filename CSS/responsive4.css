@@ -1,0 +1,127 @@
+nav{
+    
+    /* width: 20.1rem; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.navbar_container-1 ul{
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+
+
+.navbar_container-2{
+    display: none;
+}
+
+
+.bootstrap-descripiton {
+    margin: 4rem 0rem 0rem 2rem;
+}
+.bootstrap-descripiton h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.bootstrap-descripiton p {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.3rem;
+}
+.bootstrap-descripiton-and-image{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bootstrap-image>img {
+    height: 10rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
+    /* padding-left: 1rem; */
+}
+
+.button{
+    padding-left: 2rem;
+}
+
+
+.installation {
+    display: flex;
+    flex-direction: column-reverse;
+    /* width: 100%; */
+    justify-content: center;
+    /* align-items: baseline; */
+    flex-wrap: nowrap;
+}
+
+.installation-description {
+    margin: 4rem 3rem 0rem 3rem;
+}
+.installation-description h2 {
+    font-size: 2rem;
+}
+
+.installation-description .top-para {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    line-height: 2rem;
+    font-weight: 400!important;
+}
+
+.install-bootstrap {
+    display: none;
+}
+
+
+.installation-docs button {
+    height: 2.2rem;
+    width: 10rem;
+    margin-top: 0.5rem;
+    font-size: .8rem;
+    background-color: white;
+    color: #0d6efd;
+    border: 0.1rem solid #0d6efd;
+    border-radius: 0.23rem;
+}
+.image5>img {
+    height: 10rem;
+    margin: 0;
+    padding-left: 2rem;
+}
+.image7>img {
+    height: 12rem;
+    margin: 0;
+    padding-left: 2rem;
+}
+
+footer{
+    flex-direction: column;
+    /* width: 27.1rem; */
+    /* flex-wrap: wrap; */
+}
+
+footer .row-1 {
+    margin: 3rem 2rem 0rem 2.1rem;
+    padding-top: 1rem;
+    width: 16rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.footer-list{
+    padding-left: 6rem;
+    }
+
+    .footer-flex{
+        flex-direction: column;
+    }
+    
